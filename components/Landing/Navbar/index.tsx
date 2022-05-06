@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import Link from "next/link";
 
 const Navbar: FC = () => {
   return (
@@ -28,7 +29,7 @@ const Navbar: FC = () => {
             font-medium rounded-lg  
             px-5 py-2.5  mr-3 md:mr-0"
           >
-            Join
+            <Link href="/app">Join</Link>
           </button>
         </div>
         <div

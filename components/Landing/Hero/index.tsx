@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React, { FC } from "react";
 
 const Hero: FC = () => {
@@ -37,7 +38,7 @@ const Hero: FC = () => {
             font-medium rounded-md  
             px-5 py-2.5  mr-3 md:mr-0 w-1/2"
           >
-            Join
+            <Link href="/app">Join</Link>
           </button>
         </div>
       </div>

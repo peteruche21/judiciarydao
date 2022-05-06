@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { FC } from "react";
 
 const Features: FC = () => {
@@ -90,7 +91,7 @@ const Features: FC = () => {
             font-medium rounded-md  
             px-5 py-2.5  mr-3 md:mr-0 w-full"
         >
-          Join Now
+          <Link href="/app">GET STARTED</Link>
         </button>
       </div>
     </section>

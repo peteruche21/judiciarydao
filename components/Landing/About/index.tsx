@@ -5,7 +5,7 @@ function About() {
     <section
       id="about-section"
       className="text-gray-600 py-20 flex min-h-[60vh] bg-gradient-to-r
-      from-transparent via-yellow-50 to-pink-50 text-xl"
+      from-transparent via-yellow-50 to-pink-50 text-xl px-[2rem]"
     >
       <div className="m-auto">
         <h1 className="text-3xl font-bold mb-10 text-center">About</h1>
