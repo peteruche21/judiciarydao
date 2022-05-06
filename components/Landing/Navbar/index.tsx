@@ -2,9 +2,19 @@ import React, { FC } from "react";
 
 const Navbar: FC = () => {
   return (
-    <nav className="px-2 sm:px-4 py-2.5 rounded ">
+    <nav
+      className="
+      px-2 sm:px-4 py-2.5 
+      bg-gradient-to-r 
+      from-transparent via-yellow-50 to-pink-50"
+    >
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="https://localhost:3000" className="flex items-center">
+          <img
+            src="/brand/logo.svg"
+            className="mr-3 h-6 sm:h-9"
+            alt="jdao Logo"
+          />
           <span className="self-center text-xl font-semibold whitespace-nowrap text-gray-600">
             JudiciaryDao
           </span>
@@ -12,7 +22,11 @@ const Navbar: FC = () => {
         <div className="flex md:order-2">
           <button
             type="button"
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="text-white text-center text-sm
+            bg-[#535476] hover:bg-[#2d4356] 
+            focus:ring-4 focus:outline-none focus:ring-[#94e1e4] 
+            font-medium rounded-lg  
+            px-5 py-2.5  mr-3 md:mr-0"
           >
             Join
           </button>
@@ -25,7 +39,7 @@ const Navbar: FC = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                className="block py-2 pr-4 pl-3 text-white text-lg bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                 aria-current="page"
               >
                 Home
@@ -33,24 +47,24 @@ const Navbar: FC = () => {
             </li>
             <li>
               <a
-                href="#"
-                className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                href="#features-section"
+                className="block py-2 pr-4 pl-3 text-gray-400 text-lg border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >
                 Features
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                href="#about-section"
+                className="block py-2 pr-4 pl-3 text-gray-400 text-lg border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >
                 About
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                href="#ace-section"
+                className="block py-2 pr-4 pl-3 text-gray-400 text-lg border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >
                 ACE Token
               </a>

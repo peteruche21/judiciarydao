@@ -4,6 +4,7 @@ import Navbar from "../components/Landing/Navbar";
 import Footer from "../components/Landing/Footer";
 import Hero from "../components/Landing/Hero";
 import Features from "../components/Landing/Features";
+import About from "../components/Landing/About";
 import Ace from "../components/Landing/Ace";
 import Partners from "../components/Landing/Partner";
 
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
       <Navbar />
       <Hero />
       <Features />
+      <About />
       <Ace />
       <Partners />
       <Footer />

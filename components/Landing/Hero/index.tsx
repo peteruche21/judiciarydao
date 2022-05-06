@@ -3,19 +3,12 @@ import React, { FC } from "react";
 
 const Hero: FC = () => {
   return (
-    <div
+    <section
       className="
-    w-full 
-    h-[95vh] 
-    grid 
-    grid-cols-1 
-    lg:grid-cols-2 
-    gap-10 
-    bg-opacity-0
-    bg-gradient-to-r
-    from-transparent
-    via-yellow-50
-    to-pink-50"
+      w-full h-[95vh] 
+      grid grid-cols-1 lg:grid-cols-2 
+      gap-10 bg-gradient-to-r
+      from-transparent via-yellow-50 to-pink-50"
     >
       <div className="flex bg-[url('/brand/bg-dots.svg')] bg-cover bg-no-repeat">
         <div className="m-auto">
@@ -24,23 +17,31 @@ const Hero: FC = () => {
       </div>
       <div
         className="
+        flex flex-col
         justify-center 
-        items-center 
-        flex 
-        w-auto 
-        flex-col 
-        text-gray-600 
-        gap-3 
-        "
+        items-center  
+        w-auto"
       >
-        <h2 className="text-4xl font-bold">JudiciaryDao</h2>
-        <p>The Appeal Court of Ethereum</p>
-        <p>For Trust Minimized Settlements</p>
-        <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-          Join
-        </button>
+        <div className="text-center space-y-3 text-gray-600 ">
+          <h2 className="text-6xl font-bold">JudiciaryDao</h2>
+          {/* <p>The Appeal Court of Ethereum</p> */}
+          <p className="max-w-[350px]">
+            A community composed of jurists, together settling disputes in a
+            trustless way with smart-contracts. Enabling gasless voting using
+            decentralized storage.
+          </p>
+          <button
+            className="text-white text-center text-sm
+            bg-[#535476] hover:bg-[#2d4356] 
+            focus:ring-4 focus:outline-none focus:ring-[#94e1e4] 
+            font-medium rounded-md  
+            px-5 py-2.5  mr-3 md:mr-0 w-1/2"
+          >
+            Join
+          </button>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
