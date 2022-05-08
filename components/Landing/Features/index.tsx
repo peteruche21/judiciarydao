@@ -68,7 +68,7 @@ const Features: FC = () => {
     <section
       id="features-section"
       className="relative p-4 pt-24 text-gray-600 min-h-[80vh] flex flex-col bg-gradient-to-r
-      from-transparent via-yellow-50 to-pink-50"
+      from-transparent via-yellow-50 to-pink-50 px-[2rem]"
     >
       <div className="wrapper w-full max-w-6xl m-auto">
         <ul
@@ -88,7 +88,7 @@ const Features: FC = () => {
           className="text-white text-center text-sm
             bg-[#535476] hover:bg-[#2d4356] 
             focus:ring-4 focus:outline-none focus:ring-[#94e1e4] 
-            font-medium rounded-md  
+            font-medium rounded-md mt-10 lg:mt-0
             px-5 py-2.5  mr-3 md:mr-0 w-full"
         >
           <Link href="/app">GET STARTED</Link>

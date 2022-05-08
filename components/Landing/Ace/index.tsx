@@ -1,7 +1,7 @@
 import Image from "next/image";
-import React from "react";
+import React, { FC } from "react";
 
-function Ace() {
+const Ace: FC = () => {
   const data = [
     "JudiciaryDao's Governace Token",
     "Token Holders can be able to mint a base class nft",
@@ -49,6 +49,6 @@ function Ace() {
       </div>
     </section>
   );
-}
+};
 
 export default Ace;
