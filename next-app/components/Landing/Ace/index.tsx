@@ -37,7 +37,12 @@ const Ace: FC = () => {
         "
       >
         <div className="lg:col-start-2 md:col-start-1">
-          <Image src="/brand/ace.svg" width={200} height={200} />
+          <Image
+            src="/brand/ace.svg"
+            width={200}
+            height={200}
+            alt="ace token"
+          />
         </div>
 
         <div className="md:col-span-2 space-y-5">
