@@ -1,0 +1,4 @@
+{
+  "references": [{ "path": "./next-app" }, { "path": "./smart-contracts" }],
+  "exclude": ["**/node_modules"]
+}
